@@ -1,0 +1,107 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+
+
+        <div class="row">
+            <div class="col">
+
+
+                <div class="position-relative ">
+                    <div class="logo start-50"></div>
+
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="position-relative ">
+                    <p class="h1  ">Solicitud de asesoria</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="col">
+                <div class="col position-relative">
+                    <div class="cardformat" style="width: 30rem;background-color: #ffffff;">
+                        <div class="card-body">
+
+                            <label class="labelinputcolor" for="nombreEmpresa"> Nombre de la Empresa:</label>
+                            <input type="text" class="form-control" required>
+
+
+                            <label class="labelinputcolor" for="direccion">Direccion:</label>
+                            <input type="text" class="form-control" required />
+
+
+                            <label class="labelinputcolor" for="phone">Telefono:</label>
+                            <input type="telefono" class="form-control" required />
+
+
+                            <label class="labelinputcolor" for="mail">Correo electrónico:</label>
+                            <input type="email" class="form-control" required />
+
+
+                            <label class="labelinputcolor" for="msg">Mensaje:</label>
+                            <textarea class="form-control" type="textarea"></textarea>
+
+
+                            <label class="labelinputcolor" for="archivo">Subir archivo:</label>
+                            <input class="form-control" type="file" />
+
+                            <label class="labelinputcolor" for="archivo">Programar visita:</label>
+
+                            <br>
+
+                            <div class="row g-2">
+                                <div class="col">
+                                    <label class="labelinputcolor" for="msg">Fecha:</label>
+                                    <input type="date" class="form-control">
+                                </div>
+
+                                <div class="col">
+                                    <label class="labelinputcolor" for="msg">Hora:</label>
+                                    <input type="time" class="form-control">
+                                </div>
+
+                            </div>
+
+
+
+                            <br>
+                            <button class="btn btn-success" onclick="saludar()">Enviar</button>
+                            <script src="code.js"></script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

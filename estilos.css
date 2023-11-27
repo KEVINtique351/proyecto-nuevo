@@ -1,0 +1,52 @@
+body {
+  background-image: url("https://libisoft.com.co/wp-content/uploads/2023/11/fondo-landing-scaled.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /
+}
+
+.cardformat {
+top: 80px;
+right: 100px;
+margin: 10;
+border-radius: 25px;
+padding: 20px;
+width: 400px;
+box-shadow: 5px 5px 40px;
+
+}
+
+.labelinputcolor{
+color: #8451e9;
+}
+.h1{
+font-weight: bold;
+position: absolute;
+background-position: center;
+background-size: 280px ;
+top: 450px; left: -260px;
+}
+
+
+.logo{
+  position: absolute;
+  width: 300px;
+  height:300px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  background-image: url("https://libisoft.com.co/wp-content/uploads/2023/09/logo-libisoft-Ai.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 280px ;
+  top: 150px; left: 30px;
+  box-shadow: 5px 5px 40px;
+
+}
+
+
+.card-pop{
+display: none;  
+top: 150px; left: 30px;
+box-shadow: 5px 5px 40px;
+
+}
